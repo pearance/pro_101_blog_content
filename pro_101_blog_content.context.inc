@@ -25,9 +25,10 @@ function pro_101_blog_content_context_default_contexts() {
         'node_form' => '0',
       ),
     ),
-    'views' => array(
+    'path' => array(
       'values' => array(
         'blog' => 'blog',
+        'blog/*' => 'blog/*',
       ),
     ),
   );
