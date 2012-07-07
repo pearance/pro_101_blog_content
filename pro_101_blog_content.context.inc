@@ -17,14 +17,6 @@ function pro_101_blog_content_context_default_contexts() {
   $context->description = '';
   $context->tag = 'Section';
   $context->conditions = array(
-    'node' => array(
-      'values' => array(
-        'blog' => 'blog',
-      ),
-      'options' => array(
-        'node_form' => '0',
-      ),
-    ),
     'path' => array(
       'values' => array(
         'blog' => 'blog',
