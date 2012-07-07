@@ -32,6 +32,16 @@ function pro_101_blog_content_context_default_contexts() {
     ),
   );
   $context->reactions = array(
+    'block' => array(
+      'blocks' => array(
+        'boxes-social_welcome' => array(
+          'module' => 'boxes',
+          'delta' => 'social_welcome',
+          'region' => 'content',
+          'weight' => '-10',
+        ),
+      ),
+    ),
     'menu' => 'blog',
   );
   $context->condition_mode = 0;
