@@ -100,16 +100,6 @@ function pro_101_blog_content_content_defaults() {
         ),
       ),
     ),
-    'field_blog_tags' => array(
-      'und' => array(
-        0 => array(
-          'tid' => '6',
-        ),
-        1 => array(
-          'tid' => '4',
-        ),
-      ),
-    ),
   );
 
 return $content;

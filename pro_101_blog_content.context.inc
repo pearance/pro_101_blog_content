@@ -33,6 +33,12 @@ function pro_101_blog_content_context_default_contexts() {
           'region' => 'content',
           'weight' => '-10',
         ),
+        'views-6a599607ca67a5ace7ef0de5f78c06ed' => array(
+          'module' => 'views',
+          'delta' => '6a599607ca67a5ace7ef0de5f78c06ed',
+          'region' => 'content',
+          'weight' => '8',
+        ),
       ),
     ),
     'menu' => 'blog',
