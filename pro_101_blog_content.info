@@ -13,5 +13,6 @@ features[content][] = blog_post1
 features[content][] = blog_post2
 features[content][] = blog_post3
 features[context][] = blog
+features[context][] = blog_public
 features[ctools][] = context:context:3
 features[features_api][] = api:1
