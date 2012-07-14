@@ -7,6 +7,7 @@ version = 7.x-1.0
 project = pro_101_blog_content
 dependencies[] = context
 dependencies[] = defaultcontent
+dependencies[] = nodeblock
 dependencies[] = pro_101_social_content
 dependencies[] = views
 features[content][] = blog_post1

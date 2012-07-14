@@ -49,7 +49,7 @@ function pro_101_blog_content_context_default_contexts() {
   $context->api_version = 3;
   $context->name = 'blog_public';
   $context->description = '';
-  $context->tag = 'Public Viewer ';
+  $context->tag = 'Public Only';
   $context->conditions = array(
     'path' => array(
       'values' => array(
@@ -66,20 +66,20 @@ function pro_101_blog_content_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
-        'boxes-social_welcome' => array(
-          'module' => 'boxes',
-          'delta' => 'social_welcome',
+        'nodeblock-23' => array(
+          'module' => 'nodeblock',
+          'delta' => '23',
           'region' => 'content',
           'weight' => '-10',
         ),
       ),
     ),
   );
-  $context->condition_mode = 0;
+  $context->condition_mode = 1;
 
   // Translatables
   // Included for use with string extractors like potx.
-  t('Public Viewer ');
+  t('Public Only');
   $export['blog_public'] = $context;
 
   return $export;
