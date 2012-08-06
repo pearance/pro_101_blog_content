@@ -14,7 +14,7 @@ function pro_101_blog_content_content_defaults() {
     'exported_path' => 'blog/blog-post-1',
     'title' => 'Blog Post 1',
     'status' => '1',
-    'promote' => '0',
+    'promote' => '1',
     'sticky' => '0',
     'type' => 'blog',
     'language' => 'und',
@@ -32,23 +32,13 @@ function pro_101_blog_content_content_defaults() {
         ),
       ),
     ),
-    'field_blog_tags' => array(
-      'und' => array(
-        0 => array(
-          'tid' => '4',
-        ),
-        1 => array(
-          'tid' => '5',
-        ),
-      ),
-    ),
   );
 
   $content['blog_post2'] = (object) array(
     'exported_path' => 'blog/blog-post-2',
     'title' => 'Blog Post 2',
     'status' => '1',
-    'promote' => '0',
+    'promote' => '1',
     'sticky' => '0',
     'type' => 'blog',
     'language' => 'und',
@@ -66,23 +56,13 @@ function pro_101_blog_content_content_defaults() {
         ),
       ),
     ),
-    'field_blog_tags' => array(
-      'und' => array(
-        0 => array(
-          'tid' => '5',
-        ),
-        1 => array(
-          'tid' => '6',
-        ),
-      ),
-    ),
   );
 
   $content['blog_post3'] = (object) array(
     'exported_path' => 'blog/blog-post-3',
     'title' => 'Blog Post 3',
     'status' => '1',
-    'promote' => '0',
+    'promote' => '1',
     'sticky' => '0',
     'type' => 'blog',
     'language' => 'und',
@@ -97,6 +77,19 @@ function pro_101_blog_content_content_defaults() {
 ',
           'summary' => '',
           'format' => 'plain_text',
+        ),
+      ),
+    ),
+    'field_blog_tags' => array(
+      'und' => array(
+        0 => array(
+          'tid' => '1',
+        ),
+        1 => array(
+          'tid' => '2',
+        ),
+        2 => array(
+          'tid' => '3',
         ),
       ),
     ),
