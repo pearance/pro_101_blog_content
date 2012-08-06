@@ -19,7 +19,6 @@ function pro_101_blog_content_context_default_contexts() {
   $context->conditions = array(
     'path' => array(
       'values' => array(
-        'blog' => 'blog',
         'blog/*' => 'blog/*',
       ),
     ),

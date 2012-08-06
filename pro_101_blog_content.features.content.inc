@@ -56,6 +56,22 @@ function pro_101_blog_content_content_defaults() {
         ),
       ),
     ),
+    'field_blog_tags' => array(
+      'und' => array(
+        0 => array(
+          'tid' => '2',
+        ),
+        1 => array(
+          'tid' => '4',
+        ),
+        2 => array(
+          'tid' => '6',
+        ),
+        3 => array(
+          'tid' => '5',
+        ),
+      ),
+    ),
   );
 
   $content['blog_post3'] = (object) array(
