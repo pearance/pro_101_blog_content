@@ -32,6 +32,13 @@ function pro_101_blog_content_content_defaults() {
         ),
       ),
     ),
+    'field_blog_tags' => array(
+      'und' => array(
+        0 => array(
+          'tid' => '3',
+        ),
+      ),
+    ),
   );
 
   $content['blog_post2'] = (object) array(
