@@ -15,7 +15,7 @@ function pro_101_blog_content_context_default_contexts() {
   $context->api_version = 3;
   $context->name = 'blog';
   $context->description = '';
-  $context->tag = 'Section';
+  $context->tag = 'Pages';
   $context->conditions = array(
     'path' => array(
       'values' => array(
@@ -30,19 +30,13 @@ function pro_101_blog_content_context_default_contexts() {
           'module' => 'views',
           'delta' => '6a599607ca67a5ace7ef0de5f78c06ed',
           'region' => 'content',
-          'weight' => 2,
+          'weight' => '2',
         ),
         'facebook_comments-facebook-comments' => array(
           'module' => 'facebook_comments',
           'delta' => 'facebook-comments',
           'region' => 'content',
-          'weight' => 3,
-        ),
-        'views-blog-related_content_block' => array(
-          'module' => 'views',
-          'delta' => 'blog-related_content_block',
-          'region' => 'sidebar_second',
-          'weight' => 1,
+          'weight' => '3',
         ),
       ),
     ),
@@ -52,7 +46,7 @@ function pro_101_blog_content_context_default_contexts() {
 
   // Translatables
   // Included for use with string extractors like potx.
-  t('Section');
+  t('Pages');
   $export['blog'] = $context;
 
   $context = new stdClass();
