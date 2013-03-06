@@ -19,24 +19,42 @@ function pro_101_blog_content_context_default_contexts() {
   $context->conditions = array(
     'path' => array(
       'values' => array(
-        'blog/*' => 'blog/*',
+        'blog' => 'blog',
       ),
     ),
   );
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
-        'views-6a599607ca67a5ace7ef0de5f78c06ed' => array(
-          'module' => 'views',
-          'delta' => '6a599607ca67a5ace7ef0de5f78c06ed',
-          'region' => 'content',
-          'weight' => '2',
+        'jasm-service_list' => array(
+          'module' => 'jasm',
+          'delta' => 'service_list',
+          'region' => 'main_sidebar_1',
+          'weight' => '-10',
         ),
-        'facebook_comments-facebook-comments' => array(
-          'module' => 'facebook_comments',
-          'delta' => 'facebook-comments',
-          'region' => 'content',
-          'weight' => '3',
+        'jasm-fb_like_box' => array(
+          'module' => 'jasm',
+          'delta' => 'fb_like_box',
+          'region' => 'main_sidebar_1',
+          'weight' => '-9',
+        ),
+        'jasm-twitter_follow_button' => array(
+          'module' => 'jasm',
+          'delta' => 'twitter_follow_button',
+          'region' => 'main_sidebar_1',
+          'weight' => '-8',
+        ),
+        'jasm-feedburner_mail_subscribe' => array(
+          'module' => 'jasm',
+          'delta' => 'feedburner_mail_subscribe',
+          'region' => 'main_sidebar_1',
+          'weight' => '-7',
+        ),
+        'views-specialties-specialties_block' => array(
+          'module' => 'views',
+          'delta' => 'specialties-specialties_block',
+          'region' => 'main_sidebar_1',
+          'weight' => '-5',
         ),
       ),
     ),

@@ -8,6 +8,7 @@ project = pro_101_blog_content
 dependencies[] = context
 dependencies[] = defaultcontent
 dependencies[] = facebook_comments
+dependencies[] = jasm
 dependencies[] = nodeblock
 dependencies[] = pro_101_social_content
 dependencies[] = views
