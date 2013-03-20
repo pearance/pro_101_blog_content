@@ -22,6 +22,7 @@ function pro_101_blog_content_content_defaults() {
     'comment' => '0',
     'translate' => '0',
     'machine_name' => 'blog_post1',
+    'name' => 'professional1',
     'body' => array(
       'und' => array(
         0 => array(
@@ -56,6 +57,7 @@ function pro_101_blog_content_content_defaults() {
     'comment' => '0',
     'translate' => '0',
     'machine_name' => 'blog_post2',
+    'name' => 'professional2',
     'body' => array(
       'und' => array(
         0 => array(
@@ -88,6 +90,7 @@ function pro_101_blog_content_content_defaults() {
     'comment' => '0',
     'translate' => '0',
     'machine_name' => 'blog_post3',
+    'name' => 'professional1',
     'body' => array(
       'und' => array(
         0 => array(
